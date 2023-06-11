@@ -21,6 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Backlight configuration
 #define BACKLIGHT_LEVELS 14
 
+//needed for via
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
 
 
