@@ -23,29 +23,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGB_MATRIX_LED_COUNT 52
     #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 150
 
-    #define RGB_MATRIX_HUE_STEP 8
-    #define RGB_MATRIX_SAT_STEP 8
-    #define RGB_MATRIX_VAL_STEP 8
-    #define RGB_MATRIX_SPD_STEP 8
-
     #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 
     #define RGB_MATRIX_KEYPRESSES  // reacts to keypresses
 
     #define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_TYPING_HEATMAP
   #else
-    #define RGBLIGHT_HUE_STEP 8
-    #define RGBLIGHT_SAT_STEP 8
-    #define RGBLIGHT_VAL_STEP 8
-    #define RGBLIGHT_EFFECT_BREATHING
-    #define RGBLIGHT_EFFECT_RAINBOW_MOOD
-    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-    #define RGBLIGHT_EFFECT_SNAKE
-//  #define RGBLIGHT_EFFECT_KNIGHT
-//  #define RGBLIGHT_EFFECT_CHRISTMAS
-//  #define RGBLIGHT_EFFECT_STATIC_GRADIENT
-//  #define RGBLIGHT_EFFECT_RGB_TEST
-//  #define RGBLIGHT_EFFECT_ALTERNATING
 /*== customize breathing effect ==*/
   /*==== (DEFAULT) use fixed table instead of exp() and sin() ====*/
     #define RGBLIGHT_BREATHE_TABLE_SIZE 256      // 256(default) or 128 or 64

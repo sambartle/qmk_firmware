@@ -10,18 +10,31 @@
     },
     "rgblight": {
         "led_count": 156,
-        "split_count": [78, 78]
+        "split_count": [78, 78],
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "knight": true,
+            "christmas": true,
+            "static_gradient": true,
+            "rgb_test": true,
+            "alternating": true,
+            "twinkle": true
+        }
     },
     "ws2812": {
         "pin": "B5",
         "driver": "pwm"
     },
     "rgb_matrix": {
-        "driver": "WS2812"
+        "driver": "ws2812"
     },
     "matrix_pins": {
         "cols": ["A6", "A7", "B0", "B2", "B1", "B9", "B3", "B4"],
-        "rows": ["B15", "A8", "A15", "B12", "A3", null]
+        "rows": ["B15", "A8", "A15", "B12", "A3", null],
+        "io_delay": 5
     },
     "diode_direction": "COL2ROW",
     "encoder": {
@@ -48,6 +61,9 @@
                 "rows": ["B15", "B14", "A8", "A13", "A7", null]
             }
         }
+    },
+    "qmk": {
+        "tap_keycode_delay": 5
     },
     "processor": "STM32F303",
     "bootloader": "stm32-dfu",

@@ -3,7 +3,16 @@
         "device_version": "0.0.1"
     },
     "rgblight": {
-        "led_count": 6
+        "saturation_steps": 8,
+        "brightness_steps": 8,
+        "led_count": 6,
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true
+        }
+    },
+    "tapping": {
+        "term": 175
     },
     "ws2812": {
         "pin": "E6"

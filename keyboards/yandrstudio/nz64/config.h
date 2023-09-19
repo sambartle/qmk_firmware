@@ -15,9 +15,6 @@
  */
 #pragma once
 
-/* Fix VIA RGB_light */
-#define VIA_HAS_BROKEN_KEYCODES
-
 /* RGB Matrix */
 #ifdef RGB_MATRIX_ENABLE
 #   define RGB_MATRIX_LED_COUNT 82
@@ -30,7 +27,6 @@
 
 
 #   define RGB_MATRIX_MAXIMUM_BRIGHTNESS 180
-#   define RGBLIGHT_VAL_STEP 18
 #   define RGB_DISABLE_WHEN_USB_SUSPENDED true
 #   define RGB_MATRIX_CENTER { 96, 32 }
 #   define RGB_MATRIX_KEYPRESSES
