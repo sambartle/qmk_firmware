@@ -139,7 +139,7 @@
         },
 
     "rgb_matrix": {
-        "driver": "sn32F24xb",
+        "driver": "sn32f24xb",
         "layout": [
                 { "matrix": [ 0, 0 ], "flags": 4, "x": 0, "y": 0 },
                 { "matrix": [ 0, 1 ], "flags": 4, "x": 12, "y": 0 },
@@ -242,6 +242,8 @@
                 { "matrix": [ 5, 16 ], "flags": 4, "x": 199, "y": 64 },
                 { "matrix": [ 5, 17 ], "flags": 4, "x": 212, "y": 64 }
             ],
+            "react_on_keyup": true,
+            "sleep": true,
 
         "animations": { 
         "gradient_up_down": true,

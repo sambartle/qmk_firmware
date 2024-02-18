@@ -52,7 +52,7 @@
             "splash" : true,
             "typing_heatmap" : true,
         },
-        "driver": "sn32F24xb",
+        "driver": "sn32f24xb",
         "layout": [
             { "matrix":[0, 0],  "flags":4,  "x":0,   "y":0 },
             { "matrix":[0, 1],  "flags":4,  "x":16,  "y":0 },
@@ -119,7 +119,9 @@
             { "matrix":[4, 11], "flags":4, "x":182, "y":64 },
             { "matrix":[4, 12], "flags":4, "x":202, "y":64 },
             { "matrix":[4, 13], "flags":4, "x":222, "y":64 }
-        ]
+        ],
+        "react_on_keyup": true,
+        "sleep": true
     },
 
     "layouts": {

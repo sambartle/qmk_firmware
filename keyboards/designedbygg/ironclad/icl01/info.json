@@ -1,6 +1,6 @@
 {
     "keyboard_name": "Ironclad",
-    "manufacturer": "GG",
+    "manufacturer": "DesignedbyGG",
     "url": "https://designedby.gg/product/ironclad/",
     "processor": "SN32F248BF",
     "maintainer": "dexter93",
@@ -190,7 +190,7 @@
             "splash" : true,
             "typing_heatmap" : true,
         },
-        "driver": "sn32F24xb",
+        "driver": "sn32f24xb",
         "layout": [
             {"matrix": [0, 0],"flags": 1,"x":0, "y":0},
             {"matrix": [0, 2],"flags": 1,"x":21, "y":0},
@@ -302,6 +302,8 @@
             {"matrix": [5, 16],"flags": 1,"x":180, "y":64},
             {"matrix": [5, 18],"flags": 4,"x":198, "y":64},
             {"matrix": [5, 19],"flags": 4,"x":214, "y":64}
-        ]
+        ],
+        "react_on_keyup": true,
+        "sleep": true
     }
 }
